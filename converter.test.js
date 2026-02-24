@@ -49,7 +49,6 @@ test("boiling point: 100°C should equal 212°F", () => {
 });
 
 
-test("1 kg should equal 2.2 lbs", () => {
-  expect(kgToPounds(1)).toBe(999);
-  //should be .toBe(2.2)
+test("1 Liter should equal 0.26 gallons rounded", () => {
+  expect(litersToGallons(1)).toBe(0.26);
 });
